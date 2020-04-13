@@ -1,0 +1,42 @@
+h1, li {
+  color:blue;
+}
+
+li {
+  list-style-type:square;
+}
+
+p.special {
+  color:orange;
+  font-weight:bold;
+}
+
+p strong {
+  color:purple;
+}
+
+a:hover {
+  text-decoration:none;
+  color:yellow
+}
+
+a:link {
+  color:white;
+}
+
+p + p em {
+  color:red;
+}
+
+blockquote {
+  background-color:green;
+  border:2px solid black;
+}
+
+.maiden {
+  background-color:blue
+}
+
+.harris {
+  background-color:yellow
+}
