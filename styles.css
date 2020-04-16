@@ -41,7 +41,7 @@ blockquote {
   background-color:yellow
 }
 
-.batman {
+div .batman {
   width:200px;
   height:100px;
   background-color:green;
