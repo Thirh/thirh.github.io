@@ -7,11 +7,11 @@ function calculadora() {
   if (oper == "add") {
     calcular = numero1 + numero2;
   } else if (oper == "sub") {
-    calcular == numero1 - numero2;
+    calcular = numero1 - numero2;
   } else if (oper == "div") {
-    calcular == numero1 / numero2;
+    calcular = numero1 / numero2;
   } else if (oper == "mult") {
-    calcular == numero1 * numero2;
+    calcular = numero1 * numero2;
   }
 
   document.querySelector("#resultado").innerHTML = calcular;
