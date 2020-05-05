@@ -16,3 +16,20 @@ function calculadora() {
 
   document.querySelector("#resultado").innerHTML = calcular;
 }
+
+
+function mudaLetra () {
+  document.querySelector('.escreve-po').textContent = "doidodemais"
+}
+
+function mudaPalavra () {
+  document.querySelector('.escreve-po').textContent = "manero"
+}
+
+function mudaMaisAinda () {
+  document.querySelector('.escreve-po').textContent = "queloucura"
+}
+
+addEventListener("transitionstart", function() { mudaLetra() })
+addEventListener("transitionend", function() { mudaMaisAinda() })
+addEventListener("click", function() { mudaPalavra() })
