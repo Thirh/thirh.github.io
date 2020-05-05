@@ -27,7 +27,7 @@ function mudaPalavra () {
 }
 
 function mudaMaisAinda () {
-  document.querySelector('.escreve-po').textContent = "queloucura"
+  document.querySelector('.escreve-po').textContent = "clica aqui só pra testar uma coisa"
 }
 
 addEventListener("transitionstart", function() { mudaLetra() })
